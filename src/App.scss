@@ -1,0 +1,32 @@
+body {
+  max-width: 540px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.content-idr {
+  margin-top: 20px;
+  &__input {
+    display: block;
+    background-color: #fafbfc;
+    border: 1px solid #eaeaea;
+    color: #4a4a4a;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
